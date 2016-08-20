@@ -2,6 +2,7 @@
 This repository contains a public database used in experiments for CIKM'16 paper. There are available the following files:
 
 - vc6_filtering2_overlap_min5_thr20.txt: cross validation file with params in given file. Params file has as many line as folds. Each line provides:
+
 > TestPairsFileNameFoldN Pins Pdel Psubs Ptrans Pmatch
 
 Each line of TestPairsFileNameFoldN file contains pairs of input words and expected dictionary words. Pins, Pdel, Psubs, Ptrans, Pmatch are the probability of having insertion, deletion, substitutions, transpositions and matching operations respectively according TestPairsFileNameFoldN. This particular file has 6 folds for each of the six users who participated in our eye-typing experiment.
